@@ -3,3 +3,27 @@ body {
     padding: 0;
     font-family: "Nunito Sans", sans-serif;
 }
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/* faq styles */
+.faq-section {
+    padding: 20px 40px;
+    background-image: url(../images/faq.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+}
+/* logo styles */
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
