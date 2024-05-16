@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Nunito Sans", sans-serif;
+    background: rgba(0, 0, 0, .5);
 }
 
 .container {
@@ -11,19 +12,34 @@ body {
 /* faq styles */
 .faq-section {
     padding: 20px 40px;
-    background-image: url(../images/faq.jpeg);
+    background:url(../images/faq.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
+    background-size: cover;
 }
-
 .nav-area {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 /* logo styles */
 .logo {
-    font-size: 24px;
-    font-weight: 500;
+    color: #334155;
+    font-size: 28px;
+    font-weight: 600;
     line-height: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+}
+.nav-menu > li {
+    list-style: none;
+}
+.nav-menu > li > a {
+    color:#334155;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
 }
