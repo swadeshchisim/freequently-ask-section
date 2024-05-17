@@ -32,11 +32,7 @@ body {
     font-size: 42px;
     font-weight: 700;
 }
-/* .accordion {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-} */
+
 .toggle-question {
     font-size: 20px;
     font-weight: 600;
@@ -63,7 +59,9 @@ button {
 }
 .toggle {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 #toggle-icon:hover {
     cursor: pointer;
